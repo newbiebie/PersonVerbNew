@@ -14,6 +14,35 @@
 		DA5866102005F3E000E6E500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA58660E2005F3E000E6E500 /* LaunchScreen.storyboard */; };
 		DA58661B2005F3E100E6E500 /* PersonVerbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58661A2005F3E100E6E500 /* PersonVerbTests.swift */; };
 		DA5866262005F3E100E6E500 /* PersonVerbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866252005F3E100E6E500 /* PersonVerbUITests.swift */; };
+		DA58663A2005FA3400E6E500 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866392005FA3400E6E500 /* BaseViewController.swift */; };
+		DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58663B200C451B00E6E500 /* LoadScrollView.swift */; };
+		DA6F54BE204F790D00345E1C /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54BD204F790D00345E1C /* ArtViewController.swift */; };
+		DA6F54C6204F85AD00345E1C /* AnswerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54C4204F85AD00345E1C /* AnswerViewCell.swift */; };
+		DA6F54C7204F85AD00345E1C /* AnswerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6F54C5204F85AD00345E1C /* AnswerViewCell.xib */; };
+		DA6F54CE2050CFEE00345E1C /* ScaleQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54CC2050CFEE00345E1C /* ScaleQuestionCell.swift */; };
+		DA6F54CF2050CFEE00345E1C /* ScaleQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6F54CD2050CFEE00345E1C /* ScaleQuestionCell.xib */; };
+		DA6F54D120512AE900345E1C /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54D020512AE900345E1C /* AnimationViewController.swift */; };
+		DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54D720522E6900345E1C /* UIView+GroupAnimation.m */; };
+		DA6F54DB2052302900345E1C /* UIImage+Commen.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54DA2052302900345E1C /* UIImage+Commen.m */; };
+		DA8D98D4202453B500EFF771 /* SiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D98D3202453B500EFF771 /* SiftViewController.swift */; };
+		DACF44EC2027ED59009D4304 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44EB2027ED59009D4304 /* ItemModel.swift */; };
+		DACF44EE2027EEFA009D4304 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44ED2027EEFA009D4304 /* ItemView.swift */; };
+		DACF44F02027EF55009D4304 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44EF2027EF55009D4304 /* ModelView.swift */; };
+		DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE58C2C20198BBF00D7320A /* SecretViewController.swift */; };
+		DAE58C382019C66F00D7320A /* DeletTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE58C372019C66F00D7320A /* DeletTextField.swift */; };
+		DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE58C3A201AC92B00D7320A /* MYNavgViewController.swift */; };
+		DAE9C9E420118BE9001449D8 /* PickerVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE9C9E320118BE9001449D8 /* PickerVController.swift */; };
+		DAE9C9E620118D5C001449D8 /* CustomPickerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE9C9E520118D5C001449D8 /* CustomPickerV.swift */; };
+		DAE9C9E82011924E001449D8 /* 省市区.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9E72011924E001449D8 /* 省市区.json */; };
+		DAE9C9EA201199F1001449D8 /* 测试.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9E9201199F1001449D8 /* 测试.json */; };
+		DAE9C9EC2011DBAE001449D8 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9EB2011DBAE001449D8 /* Address.plist */; };
+		DAF80D93200C918900458D87 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D92200C918900458D87 /* CollectionViewController.swift */; };
+		DAF80D95200C919D00458D87 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D94200C919D00458D87 /* BaseController.swift */; };
+		DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D96200C935300458D87 /* AginCollectionViewCell.swift */; };
+		DAF80D9A200DC79F00458D87 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D99200DC79F00458D87 /* DistanceViewController.swift */; };
+		DAF80DD7200EEFEB00458D87 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80DD6200EEFEB00458D87 /* RotationViewController.swift */; };
+		DAF80DD9200F227400458D87 /* RotationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80DD8200F227400458D87 /* RotationLayout.swift */; };
+		DAF80DDB200F3EC400458D87 /* RotationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80DDA200F3EC400458D87 /* RotationCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +76,38 @@
 		DA5866212005F3E100E6E500 /* PersonVerbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonVerbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5866252005F3E100E6E500 /* PersonVerbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonVerbUITests.swift; sourceTree = "<group>"; };
 		DA5866272005F3E100E6E500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5866392005FA3400E6E500 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DA58663B200C451B00E6E500 /* LoadScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadScrollView.swift; sourceTree = "<group>"; };
+		DA6F54BD204F790D00345E1C /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
+		DA6F54C4204F85AD00345E1C /* AnswerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewCell.swift; sourceTree = "<group>"; };
+		DA6F54C5204F85AD00345E1C /* AnswerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerViewCell.xib; sourceTree = "<group>"; };
+		DA6F54CC2050CFEE00345E1C /* ScaleQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleQuestionCell.swift; sourceTree = "<group>"; };
+		DA6F54CD2050CFEE00345E1C /* ScaleQuestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScaleQuestionCell.xib; sourceTree = "<group>"; };
+		DA6F54D020512AE900345E1C /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonVerb-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA6F54D620522E6900345E1C /* UIView+GroupAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GroupAnimation.h"; sourceTree = "<group>"; };
+		DA6F54D720522E6900345E1C /* UIView+GroupAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GroupAnimation.m"; sourceTree = "<group>"; };
+		DA6F54D92052302900345E1C /* UIImage+Commen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Commen.h"; sourceTree = "<group>"; };
+		DA6F54DA2052302900345E1C /* UIImage+Commen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Commen.m"; sourceTree = "<group>"; };
+		DA8D98D3202453B500EFF771 /* SiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftViewController.swift; sourceTree = "<group>"; };
+		DACF44EB2027ED59009D4304 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		DACF44ED2027EEFA009D4304 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		DACF44EF2027EF55009D4304 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		DAE58C2C20198BBF00D7320A /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
+		DAE58C372019C66F00D7320A /* DeletTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletTextField.swift; sourceTree = "<group>"; };
+		DAE58C3A201AC92B00D7320A /* MYNavgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNavgViewController.swift; sourceTree = "<group>"; };
+		DAE9C9E320118BE9001449D8 /* PickerVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVController.swift; sourceTree = "<group>"; };
+		DAE9C9E520118D5C001449D8 /* CustomPickerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerV.swift; sourceTree = "<group>"; };
+		DAE9C9E72011924E001449D8 /* 省市区.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "省市区.json"; sourceTree = "<group>"; };
+		DAE9C9E9201199F1001449D8 /* 测试.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "测试.json"; sourceTree = "<group>"; };
+		DAE9C9EB2011DBAE001449D8 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		DAF80D92200C918900458D87 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		DAF80D94200C919D00458D87 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		DAF80D96200C935300458D87 /* AginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAF80D99200DC79F00458D87 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		DAF80DD6200EEFEB00458D87 /* RotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		DAF80DD8200F227400458D87 /* RotationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationLayout.swift; sourceTree = "<group>"; };
+		DAF80DDA200F3EC400458D87 /* RotationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +158,16 @@
 		DA5866042005F3E000E6E500 /* PersonVerb */ = {
 			isa = PBXGroup;
 			children = (
+				DA6F54BF204F795100345E1C /* 通用 */,
+				DACF44F6202A9257009D4304 /* 艺术字 */,
+				DA8D98D22024537900EFF771 /* UIView模块化 */,
+				DAE58C39201AC8E900D7320A /* 自定义导航 */,
+				DAE58C2E20198C2500D7320A /* 密码键盘 */,
+				DAE9C9E220118BB8001449D8 /* UIPickerView选择器 */,
+				DAF80DD5200EEFAC00458D87 /* UICollectionView旋转布局 */,
+				DAF80D98200DC77C00458D87 /* 跑步距离计算 */,
+				DAF80D91200C913600458D87 /* collectionViewCell重排 */,
+				DA5866382005FA1200E6E500 /* 基类 */,
 				DA5866052005F3E000E6E500 /* AppDelegate.swift */,
 				DA5866072005F3E000E6E500 /* ViewController.swift */,
 				DA5866092005F3E000E6E500 /* Main.storyboard */,
@@ -123,6 +194,108 @@
 				DA5866272005F3E100E6E500 /* Info.plist */,
 			);
 			path = PersonVerbUITests;
+			sourceTree = "<group>";
+		};
+		DA5866382005FA1200E6E500 /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				DA5866392005FA3400E6E500 /* BaseViewController.swift */,
+				DA58663B200C451B00E6E500 /* LoadScrollView.swift */,
+				DAF80D94200C919D00458D87 /* BaseController.swift */,
+			);
+			path = "基类";
+			sourceTree = "<group>";
+		};
+		DA6F54BF204F795100345E1C /* 通用 */ = {
+			isa = PBXGroup;
+			children = (
+				DA6F54C4204F85AD00345E1C /* AnswerViewCell.swift */,
+				DA6F54C5204F85AD00345E1C /* AnswerViewCell.xib */,
+				DA6F54D020512AE900345E1C /* AnimationViewController.swift */,
+				DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */,
+				DA6F54D620522E6900345E1C /* UIView+GroupAnimation.h */,
+				DA6F54D720522E6900345E1C /* UIView+GroupAnimation.m */,
+				DA6F54D92052302900345E1C /* UIImage+Commen.h */,
+				DA6F54DA2052302900345E1C /* UIImage+Commen.m */,
+			);
+			path = "通用";
+			sourceTree = "<group>";
+		};
+		DA8D98D22024537900EFF771 /* UIView模块化 */ = {
+			isa = PBXGroup;
+			children = (
+				DA8D98D3202453B500EFF771 /* SiftViewController.swift */,
+				DACF44EB2027ED59009D4304 /* ItemModel.swift */,
+				DACF44ED2027EEFA009D4304 /* ItemView.swift */,
+				DACF44EF2027EF55009D4304 /* ModelView.swift */,
+			);
+			path = "UIView模块化";
+			sourceTree = "<group>";
+		};
+		DACF44F6202A9257009D4304 /* 艺术字 */ = {
+			isa = PBXGroup;
+			children = (
+				DA6F54BD204F790D00345E1C /* ArtViewController.swift */,
+				DA6F54CC2050CFEE00345E1C /* ScaleQuestionCell.swift */,
+				DA6F54CD2050CFEE00345E1C /* ScaleQuestionCell.xib */,
+			);
+			path = "艺术字";
+			sourceTree = "<group>";
+		};
+		DAE58C2E20198C2500D7320A /* 密码键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				DAE58C2C20198BBF00D7320A /* SecretViewController.swift */,
+				DAE58C372019C66F00D7320A /* DeletTextField.swift */,
+			);
+			path = "密码键盘";
+			sourceTree = "<group>";
+		};
+		DAE58C39201AC8E900D7320A /* 自定义导航 */ = {
+			isa = PBXGroup;
+			children = (
+				DAE58C3A201AC92B00D7320A /* MYNavgViewController.swift */,
+			);
+			path = "自定义导航";
+			sourceTree = "<group>";
+		};
+		DAE9C9E220118BB8001449D8 /* UIPickerView选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9C9EB2011DBAE001449D8 /* Address.plist */,
+				DAE9C9E9201199F1001449D8 /* 测试.json */,
+				DAE9C9E72011924E001449D8 /* 省市区.json */,
+				DAE9C9E320118BE9001449D8 /* PickerVController.swift */,
+				DAE9C9E520118D5C001449D8 /* CustomPickerV.swift */,
+			);
+			path = "UIPickerView选择器";
+			sourceTree = "<group>";
+		};
+		DAF80D91200C913600458D87 /* collectionViewCell重排 */ = {
+			isa = PBXGroup;
+			children = (
+				DAF80D92200C918900458D87 /* CollectionViewController.swift */,
+				DAF80D96200C935300458D87 /* AginCollectionViewCell.swift */,
+			);
+			path = "collectionViewCell重排";
+			sourceTree = "<group>";
+		};
+		DAF80D98200DC77C00458D87 /* 跑步距离计算 */ = {
+			isa = PBXGroup;
+			children = (
+				DAF80D99200DC79F00458D87 /* DistanceViewController.swift */,
+			);
+			path = "跑步距离计算";
+			sourceTree = "<group>";
+		};
+		DAF80DD5200EEFAC00458D87 /* UICollectionView旋转布局 */ = {
+			isa = PBXGroup;
+			children = (
+				DAF80DD6200EEFEB00458D87 /* RotationViewController.swift */,
+				DAF80DD8200F227400458D87 /* RotationLayout.swift */,
+				DAF80DDA200F3EC400458D87 /* RotationCollectionViewCell.swift */,
+			);
+			path = "UICollectionView旋转布局";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +366,13 @@
 				TargetAttributes = {
 					DA5866012005F3E000E6E500 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					DA5866152005F3E100E6E500 = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,8 +412,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5866102005F3E000E6E500 /* LaunchScreen.storyboard in Resources */,
+				DAE9C9E82011924E001449D8 /* 省市区.json in Resources */,
 				DA58660D2005F3E000E6E500 /* Assets.xcassets in Resources */,
+				DA6F54C7204F85AD00345E1C /* AnswerViewCell.xib in Resources */,
+				DAE9C9EC2011DBAE001449D8 /* Address.plist in Resources */,
 				DA58660B2005F3E000E6E500 /* Main.storyboard in Resources */,
+				DA6F54CF2050CFEE00345E1C /* ScaleQuestionCell.xib in Resources */,
+				DAE9C9EA201199F1001449D8 /* 测试.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +443,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6F54BE204F790D00345E1C /* ArtViewController.swift in Sources */,
+				DA8D98D4202453B500EFF771 /* SiftViewController.swift in Sources */,
+				DAF80DDB200F3EC400458D87 /* RotationCollectionViewCell.swift in Sources */,
+				DA58663A2005FA3400E6E500 /* BaseViewController.swift in Sources */,
+				DACF44EE2027EEFA009D4304 /* ItemView.swift in Sources */,
+				DAF80D9A200DC79F00458D87 /* DistanceViewController.swift in Sources */,
+				DAF80DD7200EEFEB00458D87 /* RotationViewController.swift in Sources */,
+				DAE9C9E620118D5C001449D8 /* CustomPickerV.swift in Sources */,
+				DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */,
+				DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */,
+				DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */,
+				DAE58C382019C66F00D7320A /* DeletTextField.swift in Sources */,
+				DAF80DD9200F227400458D87 /* RotationLayout.swift in Sources */,
+				DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */,
+				DA6F54DB2052302900345E1C /* UIImage+Commen.m in Sources */,
+				DACF44EC2027ED59009D4304 /* ItemModel.swift in Sources */,
+				DA6F54D120512AE900345E1C /* AnimationViewController.swift in Sources */,
+				DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */,
+				DACF44F02027EF55009D4304 /* ModelView.swift in Sources */,
+				DA6F54C6204F85AD00345E1C /* AnswerViewCell.swift in Sources */,
+				DA6F54CE2050CFEE00345E1C /* ScaleQuestionCell.swift in Sources */,
 				DA5866082005F3E000E6E500 /* ViewController.swift in Sources */,
 				DA5866062005F3E000E6E500 /* AppDelegate.swift in Sources */,
+				DAF80D95200C919D00458D87 /* BaseController.swift in Sources */,
+				DAE9C9E420118BE9001449D8 /* PickerVController.swift in Sources */,
+				DAF80D93200C918900458D87 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,13 +633,20 @@
 		DA58662B2005F3E100E6E500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K28A3BX2XJ;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PersonVerb/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dlrc.Test;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PersonVerb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersonVerb/通用/PersonVerb-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,13 +655,19 @@
 		DA58662C2005F3E100E6E500 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K28A3BX2XJ;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PersonVerb/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dlrc.Test;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PersonVerb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersonVerb/通用/PersonVerb-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
