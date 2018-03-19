@@ -61,7 +61,7 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
     var scrollView : LoadScrollView?
     
     //类名字符串数组
-    let classArray : Array<String> = ["CollectionViewController", "DistanceViewController", "RotationViewController", "PickerVController", "SecretViewController", "MYNavgViewController", "SiftViewController", "ArtViewController", "AnimationViewController"
+    let classArray : Array<String> = ["CollectionViewController", "DistanceViewController", "RotationViewController", "PickerVController", "SecretViewController", "MYNavgViewController", "SiftViewController", "ArtViewController", "AnimationViewController", "MasoryViewController", "MasonryListViewController"
     ]
     
     //闪屏广告图片数组
@@ -89,7 +89,7 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
         super.viewDidLoad()
         
         //父类属性
-        self.dataArray = NSMutableArray.init(array: ["UICollectionViewCell重排", "跑步距离计算", "UICollectionView旋转布局", "UIPickerView选择器", "密码键盘", "自定义导航", "UIView模块化","问答系统", "头像动画"])
+        self.dataArray = NSMutableArray.init(array: ["UICollectionViewCell重排", "跑步距离计算", "UICollectionView旋转布局", "UIPickerView选择器", "密码键盘", "自定义导航", "UIView模块化","问答系统", "头像动画", "布局", "表布局"])
         
         
         
