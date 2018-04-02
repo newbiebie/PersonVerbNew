@@ -8,6 +8,9 @@
 
 import UIKit
 //基类文件  自定义一个基类tableViewController
+
+let bottomHeight : CGFloat = SCREENH == 812 ? 37 : 0
+
 class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
     
 //    let SCREENW = UIScreen.main.bounds.size.width
@@ -24,9 +27,10 @@ class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         self.dataArray = NSMutableArray.init()
         //初始化添加
-        self.tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width:SCREENW , height: SCREENH))
+        self.tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width:SCREENW , height: SCREENH - bottomHeight))
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
         self.tableView?.tableFooterView = UIView.init()

@@ -30,6 +30,9 @@
 		DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54D720522E6900345E1C /* UIView+GroupAnimation.m */; };
 		DA6F54DB2052302900345E1C /* UIImage+Commen.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54DA2052302900345E1C /* UIImage+Commen.m */; };
 		DA8D98D4202453B500EFF771 /* SiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D98D3202453B500EFF771 /* SiftViewController.swift */; };
+		DACE922E2060B08100319133 /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE922D2060B08100319133 /* VerbViewController.swift */; };
+		DACE92302060B81200319133 /* VerbTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE922F2060B81200319133 /* VerbTwoViewController.swift */; };
+		DACE92322060BB8900319133 /* ViewVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE92312060BB8900319133 /* ViewVerbViewController.swift */; };
 		DACF44EC2027ED59009D4304 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44EB2027ED59009D4304 /* ItemModel.swift */; };
 		DACF44EE2027EEFA009D4304 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44ED2027EEFA009D4304 /* ItemView.swift */; };
 		DACF44F02027EF55009D4304 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF44EF2027EF55009D4304 /* ModelView.swift */; };
@@ -103,6 +106,9 @@
 		DA6F54D92052302900345E1C /* UIImage+Commen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Commen.h"; sourceTree = "<group>"; };
 		DA6F54DA2052302900345E1C /* UIImage+Commen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Commen.m"; sourceTree = "<group>"; };
 		DA8D98D3202453B500EFF771 /* SiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftViewController.swift; sourceTree = "<group>"; };
+		DACE922D2060B08100319133 /* VerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbViewController.swift; sourceTree = "<group>"; };
+		DACE922F2060B81200319133 /* VerbTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbTwoViewController.swift; sourceTree = "<group>"; };
+		DACE92312060BB8900319133 /* ViewVerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVerbViewController.swift; sourceTree = "<group>"; };
 		DACF44EB2027ED59009D4304 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DACF44ED2027EEFA009D4304 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		DACF44EF2027EF55009D4304 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
@@ -218,6 +224,7 @@
 		DA5866042005F3E000E6E500 /* PersonVerb */ = {
 			isa = PBXGroup;
 			children = (
+				DACE922C2060ADD200319133 /* 转场动画 */,
 				DA26A04D205FAF1C003042FA /* 分类 */,
 				DA26A046205F96B3003042FA /* 表布局 */,
 				DA011513205F4C3A0004FFE9 /* Masory布局 */,
@@ -293,6 +300,16 @@
 				DACF44EF2027EF55009D4304 /* ModelView.swift */,
 			);
 			path = "UIView模块化";
+			sourceTree = "<group>";
+		};
+		DACE922C2060ADD200319133 /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DACE922D2060B08100319133 /* VerbViewController.swift */,
+				DACE922F2060B81200319133 /* VerbTwoViewController.swift */,
+				DACE92312060BB8900319133 /* ViewVerbViewController.swift */,
+			);
+			path = "转场动画";
 			sourceTree = "<group>";
 		};
 		DACF44F6202A9257009D4304 /* 艺术字 */ = {
@@ -563,9 +580,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACE92322060BB8900319133 /* ViewVerbViewController.swift in Sources */,
 				DA6F54BE204F790D00345E1C /* ArtViewController.swift in Sources */,
 				DA8D98D4202453B500EFF771 /* SiftViewController.swift in Sources */,
 				DAF80DDB200F3EC400458D87 /* RotationCollectionViewCell.swift in Sources */,
+				DACE92302060B81200319133 /* VerbTwoViewController.swift in Sources */,
 				DA58663A2005FA3400E6E500 /* BaseViewController.swift in Sources */,
 				DACF44EE2027EEFA009D4304 /* ItemView.swift in Sources */,
 				DAF80D9A200DC79F00458D87 /* DistanceViewController.swift in Sources */,
@@ -582,6 +601,7 @@
 				DACF44EC2027ED59009D4304 /* ItemModel.swift in Sources */,
 				DA6F54D120512AE900345E1C /* AnimationViewController.swift in Sources */,
 				DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */,
+				DACE922E2060B08100319133 /* VerbViewController.swift in Sources */,
 				DACF44F02027EF55009D4304 /* ModelView.swift in Sources */,
 				DA6F54C6204F85AD00345E1C /* AnswerViewCell.swift in Sources */,
 				DA6F54CE2050CFEE00345E1C /* ScaleQuestionCell.swift in Sources */,
