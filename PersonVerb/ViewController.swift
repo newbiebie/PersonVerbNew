@@ -6,6 +6,13 @@
 //  Copyright © 2018年 GongHua Guo. All rights reserved.
 //
 
+
+/**
+ 
+ 当前项目 push -- 》   Github/master
+ 
+ */
+
 import UIKit
 
 public enum DeviceType: Int {
@@ -61,7 +68,7 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
     var scrollView : LoadScrollView?
     
     //类名字符串数组
-    let classArray : Array<String> = ["CollectionViewController", "DistanceViewController", "RotationViewController", "PickerVController", "SecretViewController", "MYNavgViewController", "SiftViewController", "ArtViewController", "AnimationViewController", "MasoryViewController", "MasonryListViewController", "VerbViewController", "ViewVerbViewController"
+    let classArray : Array<String> = ["CollectionViewController", "DistanceViewController", "RotationViewController", "PickerVController", "SecretViewController", "MYNavgViewController", "SiftViewController", "ArtViewController", "AnimationViewController", "MasoryViewController", "MasonryListViewController", "VerbViewController", "ViewVerbViewController", "LoginViewController"
     ]
     
     //闪屏广告图片数组
@@ -89,7 +96,7 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
         super.viewDidLoad()
         
         //父类属性
-        self.dataArray = NSMutableArray.init(array: ["UICollectionViewCell重排", "跑步距离计算", "UICollectionView旋转布局", "UIPickerView选择器", "密码键盘", "自定义导航", "UIView模块化","问答系统", "头像动画", "布局", "表布局", "页面动画", "UIview动画"])
+        self.dataArray = NSMutableArray.init(array: ["UICollectionViewCell重排", "跑步距离计算", "UICollectionView旋转布局", "UIPickerView选择器", "密码键盘", "自定义导航", "UIView模块化","问答系统", "头像动画", "布局", "表布局", "页面动画", "UIview动画", "融云即时通信"])
         
         
         

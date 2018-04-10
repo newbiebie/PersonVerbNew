@@ -9,13 +9,29 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource {
+    
+    
+    
+    
 
     var window: UIWindow?
 
+    
+    lazy var ListArray : NSMutableArray = {
+        let path = Bundle.main.path(forResource:"RongYunList", ofType: ".plist")
+        
+        let array = NSMutableArray.init(contentsOfFile: path!)
+        
+        return array!
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        RCIM.shared().userInfoDataSource = self
+        
+        
         return true
     }
 
@@ -41,6 +57,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func getUserInfo(withUserId userId: String!, completion: ((RCUserInfo?) -> Void)!) {
+        for item in self.ListArray {
+            let param = item as! NSDictionary
+            if (param.object(forKey: "UserID") as! String) == userId {
+                let userInfo = RCUserInfo.init(userId: userId, name: param.object(forKey: "UserName") as! String, portrait: param.object(forKey: "UserPortrait") as! String)
+                completion(userInfo)
+            }
+        }
+    }
+    
 
 }
 

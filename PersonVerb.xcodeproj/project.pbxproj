@@ -30,6 +30,9 @@
 		DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54D720522E6900345E1C /* UIView+GroupAnimation.m */; };
 		DA6F54DB2052302900345E1C /* UIImage+Commen.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F54DA2052302900345E1C /* UIImage+Commen.m */; };
 		DA8D98D4202453B500EFF771 /* SiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D98D3202453B500EFF771 /* SiftViewController.swift */; };
+		DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */; };
+		DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAB0CB202079EFB800C14F11 /* RongYunList.plist */; };
+		DAB0CB24207C51DF00C14F11 /* ArtFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0CB23207C51DF00C14F11 /* ArtFontViewController.swift */; };
 		DACE922E2060B08100319133 /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE922D2060B08100319133 /* VerbViewController.swift */; };
 		DACE92302060B81200319133 /* VerbTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE922F2060B81200319133 /* VerbTwoViewController.swift */; };
 		DACE92322060BB8900319133 /* ViewVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE92312060BB8900319133 /* ViewVerbViewController.swift */; };
@@ -44,6 +47,8 @@
 		DAE9C9E82011924E001449D8 /* 省市区.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9E72011924E001449D8 /* 省市区.json */; };
 		DAE9C9EA201199F1001449D8 /* 测试.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9E9201199F1001449D8 /* 测试.json */; };
 		DAE9C9EC2011DBAE001449D8 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE9C9EB2011DBAE001449D8 /* Address.plist */; };
+		DAEAD55520721A340020E09D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAD55420721A340020E09D /* LoginViewController.swift */; };
+		DAEAD557207228150020E09D /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAD556207228150020E09D /* NetworkTools.swift */; };
 		DAF80D93200C918900458D87 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D92200C918900458D87 /* CollectionViewController.swift */; };
 		DAF80D95200C919D00458D87 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D94200C919D00458D87 /* BaseController.swift */; };
 		DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80D96200C935300458D87 /* AginCollectionViewCell.swift */; };
@@ -106,6 +111,9 @@
 		DA6F54D92052302900345E1C /* UIImage+Commen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Commen.h"; sourceTree = "<group>"; };
 		DA6F54DA2052302900345E1C /* UIImage+Commen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Commen.m"; sourceTree = "<group>"; };
 		DA8D98D3202453B500EFF771 /* SiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftViewController.swift; sourceTree = "<group>"; };
+		DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatViewController.swift; sourceTree = "<group>"; };
+		DAB0CB202079EFB800C14F11 /* RongYunList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RongYunList.plist; sourceTree = "<group>"; };
+		DAB0CB23207C51DF00C14F11 /* ArtFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFontViewController.swift; sourceTree = "<group>"; };
 		DACE922D2060B08100319133 /* VerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbViewController.swift; sourceTree = "<group>"; };
 		DACE922F2060B81200319133 /* VerbTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbTwoViewController.swift; sourceTree = "<group>"; };
 		DACE92312060BB8900319133 /* ViewVerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVerbViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +128,8 @@
 		DAE9C9E72011924E001449D8 /* 省市区.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "省市区.json"; sourceTree = "<group>"; };
 		DAE9C9E9201199F1001449D8 /* 测试.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "测试.json"; sourceTree = "<group>"; };
 		DAE9C9EB2011DBAE001449D8 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		DAEAD55420721A340020E09D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DAEAD556207228150020E09D /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		DAF80D92200C918900458D87 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		DAF80D94200C919D00458D87 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		DAF80D96200C935300458D87 /* AginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -192,13 +202,6 @@
 			path = "表布局";
 			sourceTree = "<group>";
 		};
-		DA26A04D205FAF1C003042FA /* 分类 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "分类";
-			sourceTree = "<group>";
-		};
 		DA5865F92005F3E000E6E500 = {
 			isa = PBXGroup;
 			children = (
@@ -224,8 +227,9 @@
 		DA5866042005F3E000E6E500 /* PersonVerb */ = {
 			isa = PBXGroup;
 			children = (
+				DAB0CB22207C51BC00C14F11 /* 艺术字效果 */,
+				DAEAD5532071CCFC0020E09D /* 融云即时通讯 */,
 				DACE922C2060ADD200319133 /* 转场动画 */,
-				DA26A04D205FAF1C003042FA /* 分类 */,
 				DA26A046205F96B3003042FA /* 表布局 */,
 				DA011513205F4C3A0004FFE9 /* Masory布局 */,
 				DA6F54BF204F795100345E1C /* 通用 */,
@@ -272,6 +276,7 @@
 				DA5866392005FA3400E6E500 /* BaseViewController.swift */,
 				DA58663B200C451B00E6E500 /* LoadScrollView.swift */,
 				DAF80D94200C919D00458D87 /* BaseController.swift */,
+				DAB0CB202079EFB800C14F11 /* RongYunList.plist */,
 			);
 			path = "基类";
 			sourceTree = "<group>";
@@ -300,6 +305,14 @@
 				DACF44EF2027EF55009D4304 /* ModelView.swift */,
 			);
 			path = "UIView模块化";
+			sourceTree = "<group>";
+		};
+		DAB0CB22207C51BC00C14F11 /* 艺术字效果 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0CB23207C51DF00C14F11 /* ArtFontViewController.swift */,
+			);
+			name = "艺术字效果";
 			sourceTree = "<group>";
 		};
 		DACE922C2060ADD200319133 /* 转场动画 */ = {
@@ -349,6 +362,16 @@
 				DAE9C9E520118D5C001449D8 /* CustomPickerV.swift */,
 			);
 			path = "UIPickerView选择器";
+			sourceTree = "<group>";
+		};
+		DAEAD5532071CCFC0020E09D /* 融云即时通讯 */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAD55420721A340020E09D /* LoginViewController.swift */,
+				DAEAD556207228150020E09D /* NetworkTools.swift */,
+				DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */,
+			);
+			path = "融云即时通讯";
 			sourceTree = "<group>";
 		};
 		DAF80D91200C913600458D87 /* collectionViewCell重排 */ = {
@@ -499,6 +522,7 @@
 				DA58660D2005F3E000E6E500 /* Assets.xcassets in Resources */,
 				DA6F54C7204F85AD00345E1C /* AnswerViewCell.xib in Resources */,
 				DAE9C9EC2011DBAE001449D8 /* Address.plist in Resources */,
+				DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */,
 				DA58660B2005F3E000E6E500 /* Main.storyboard in Resources */,
 				DA6F54CF2050CFEE00345E1C /* ScaleQuestionCell.xib in Resources */,
 				DAE9C9EA201199F1001449D8 /* 测试.json in Resources */,
@@ -546,9 +570,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PersonVerb/Pods-PersonVerb-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -562,10 +597,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PersonVerb/Pods-PersonVerb-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetwork/AFNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,19 +630,23 @@
 				DA26A04C205FA02D003042FA /* MasonryCell.swift in Sources */,
 				DAF80DD7200EEFEB00458D87 /* RotationViewController.swift in Sources */,
 				DAE9C9E620118D5C001449D8 /* CustomPickerV.swift in Sources */,
+				DAEAD557207228150020E09D /* NetworkTools.swift in Sources */,
 				DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */,
 				DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */,
 				DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */,
 				DAE58C382019C66F00D7320A /* DeletTextField.swift in Sources */,
 				DAF80DD9200F227400458D87 /* RotationLayout.swift in Sources */,
+				DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */,
 				DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */,
 				DA6F54DB2052302900345E1C /* UIImage+Commen.m in Sources */,
 				DACF44EC2027ED59009D4304 /* ItemModel.swift in Sources */,
 				DA6F54D120512AE900345E1C /* AnimationViewController.swift in Sources */,
 				DA6F54D820522E6900345E1C /* UIView+GroupAnimation.m in Sources */,
+				DAEAD55520721A340020E09D /* LoginViewController.swift in Sources */,
 				DACE922E2060B08100319133 /* VerbViewController.swift in Sources */,
 				DACF44F02027EF55009D4304 /* ModelView.swift in Sources */,
 				DA6F54C6204F85AD00345E1C /* AnswerViewCell.swift in Sources */,
+				DAB0CB24207C51DF00C14F11 /* ArtFontViewController.swift in Sources */,
 				DA6F54CE2050CFEE00345E1C /* ScaleQuestionCell.swift in Sources */,
 				DA5866082005F3E000E6E500 /* ViewController.swift in Sources */,
 				DA5866062005F3E000E6E500 /* AppDelegate.swift in Sources */,
