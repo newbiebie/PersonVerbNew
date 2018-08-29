@@ -11,13 +11,12 @@ import UIKit
 
 let bottomHeight : CGFloat = SCREENH == 812 ? 37 : 0
 
-class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
-    
-//    let SCREENW = UIScreen.main.bounds.size.width
-//    let SCREENH = UIScreen.main.bounds.size.height
+class BaseViewController: BaseController , UITableViewDelegate, UITableViewDataSource {
     
     //数据源数组  在当前类初始化,否则闪退
     var dataArray : NSMutableArray?
+    
+    var classArray : NSMutableArray?
     
     var tableView : UITableView?
     
@@ -27,8 +26,8 @@ class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
         self.dataArray = NSMutableArray.init()
+        self.classArray = NSMutableArray.init()
         //初始化添加
         self.tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width:SCREENW , height: SCREENH - bottomHeight))
         self.tableView?.delegate = self
@@ -38,6 +37,7 @@ class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDat
         self.tableView?.showsVerticalScrollIndicator = false
         self.tableView?.showsHorizontalScrollIndicator = false
         self.tableView?.estimatedRowHeight = 100
+        self.tableView?.backgroundColor = .clear
         self.view.addSubview(self.tableView!)
     }
 
@@ -57,6 +57,7 @@ class BaseViewController: UIViewController , UITableViewDelegate, UITableViewDat
             cell = UITableViewCell.init(style: .default, reuseIdentifier: "cell")
         }
         cell?.selectionStyle = .none
+        cell?.backgroundColor = UIColor.clear
         cell?.accessoryType = .disclosureIndicator
         cell?.textLabel?.attributedText = self.setSpaceForLabelText(title: self.dataArray![indexPath.row] as! String, fontSize: self.fontSize)
         cell?.textLabel?.numberOfLines = 0

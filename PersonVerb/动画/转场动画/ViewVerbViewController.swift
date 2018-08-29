@@ -33,8 +33,6 @@ class ViewVerbViewController: BaseController {
         
         self.printView?.backgroundColor = .red
         self.behindView?.backgroundColor = .gray
-        
-//        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "切换", style: .plain, target: self, action: #selector(self.rightAction))
         self.animationCAT()
         
     }

@@ -31,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource {
         
         RCIM.shared().userInfoDataSource = self
         
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().backgroundColor = UIColor.white
+        
         
         return true
     }

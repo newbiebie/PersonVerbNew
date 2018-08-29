@@ -67,10 +67,6 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
     //闪屏
     var scrollView : LoadScrollView?
     
-    //类名字符串数组
-    let classArray : Array<String> = ["CollectionViewController", "DistanceViewController", "RotationViewController", "PickerVController", "SecretViewController", "MYNavgViewController", "SiftViewController", "ArtViewController", "AnimationViewController", "MasoryViewController", "MasonryListViewController", "VerbViewController", "ViewVerbViewController", "LoginViewController"
-    ]
-    
     //闪屏广告图片数组
     let array : Array<NSString> = ["number01", "number02", "number03"]
     
@@ -82,7 +78,8 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
         self.scrollView?.ItemDelegate = self
         UIApplication.shared.keyWindow!.addSubview(self.scrollView!)
         
-        
+        self.navigationController?.navigationBar.barTintColor = UIColor.orange
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
         let label = UILabel.init()
         label.font = UIFont.boldSystemFont(ofSize: 25.0)
         label.text = NSString.init(format: "设备型号: %@", UIDevice.current.modelName) as String
@@ -94,11 +91,6 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //父类属性
-        self.dataArray = NSMutableArray.init(array: ["UICollectionViewCell重排", "跑步距离计算", "UICollectionView旋转布局", "UIPickerView选择器", "密码键盘", "自定义导航", "UIView模块化","问答系统", "头像动画", "布局", "表布局", "页面动画", "UIview动画", "融云即时通信"])
-        
-        
         
         self.creatScrollViewForNoun()
         self.navigationController?.delegate = self
@@ -134,9 +126,7 @@ extension ViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         OperationQueue.main.addOperation {
-            let vc : UIViewController = self.creatViewControllerFromStr(classStr: self.classArray[indexPath.row])
-            vc.title = self.dataArray?[indexPath.row] as? String
-            self.navigationController?.pushViewController(vc, animated: true)
+            
         }
     }
     
@@ -193,7 +183,7 @@ extension ViewController {
 extension ViewController {
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
         
-        if viewController.isKind(of: MYNavgViewController.self) || viewController.isKind(of: ArtViewController.self) {
+        if viewController.isKind(of: MYNavgViewController.self) {
             self.navigationController?.navigationBar.isHidden = true;
         }
         else {
