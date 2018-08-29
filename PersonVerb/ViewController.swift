@@ -70,6 +70,7 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
     //闪屏广告图片数组
     let array : Array<NSString> = ["number01", "number02", "number03"]
     
+    
     //可以在这个页面添加一个广告视图, 具体类型自己设置,方便添加点击事件处理
     func creatScrollViewForNoun(){
         self.scrollView = LoadScrollView.init(frame: CGRect.init(x: 0, y: 0, width: SCREENW, height: SCREENH))
@@ -92,9 +93,14 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //读取数据
+        let path = Bundle.main.path(forResource: "DataArrayList", ofType: "plist")
+        let array = NSArray.init(contentsOfFile: path!)
+        if array != nil {
+            self.dataArray?.addObjects(from: array! as! [Any])
+        }
         self.creatScrollViewForNoun()
         self.navigationController?.delegate = self
-        
         self.textColor = UIColor.black
         self.fontSize = 18.0
     }
@@ -114,7 +120,8 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
         }
         cell?.selectionStyle = .none
         cell?.accessoryType = .disclosureIndicator
-        cell?.textLabel?.text = self.dataArray?[indexPath.row] as? String
+        let param = self.dataArray![indexPath.row] as! NSDictionary
+        cell?.textLabel?.text = param.object(forKey: "title") as? String
         return cell!;
     }
    
@@ -124,9 +131,11 @@ class ViewController: BaseViewController , LoadScrollViewDelegate, UINavigationC
 /*相关的协议事件方法在扩展中**/
 extension ViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let param = self.dataArray![indexPath.row] as! NSDictionary
         OperationQueue.main.addOperation {
-            
+            self.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(self.creatViewControllerFromStr(classStr: param.object(forKey: "className") as! String), animated: true)
+            self.hidesBottomBarWhenPushed = false
         }
     }
     

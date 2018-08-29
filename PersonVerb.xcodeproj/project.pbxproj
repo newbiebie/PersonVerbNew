@@ -11,6 +11,17 @@
 		DA011518205F4E110004FFE9 /* MasoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA011517205F4E110004FFE9 /* MasoryViewController.swift */; };
 		DA26A048205F96CD003042FA /* MasonryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26A047205F96CD003042FA /* MasonryListViewController.swift */; };
 		DA26A04C205FA02D003042FA /* MasonryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26A04B205FA02D003042FA /* MasonryCell.swift */; };
+		DA389E4621367128004B29AB /* DataArrayList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA389E4521367128004B29AB /* DataArrayList.plist */; };
+		DA389E4821367765004B29AB /* BaseCanbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E4721367765004B29AB /* BaseCanbackViewController.swift */; };
+		DA389E4D21367D42004B29AB /* PostscriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E4C21367D42004B29AB /* PostscriptViewController.swift */; };
+		DA389E76213684BC004B29AB /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E75213684BC004B29AB /* RandomViewController.swift */; };
+		DA389E79213686B1004B29AB /* SettleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E78213686B1004B29AB /* SettleViewController.swift */; };
+		DA389E7C213686ED004B29AB /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA389E7A213686ED004B29AB /* UICountingLabel.m */; };
+		DA389E7E2136886A004B29AB /* TitleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E7D2136886A004B29AB /* TitleImage.swift */; };
+		DA389E8521368991004B29AB /* PerfectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA389E8121368991004B29AB /* PerfectCollectionViewCell.xib */; };
+		DA389E8621368991004B29AB /* NewPerfectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E8221368991004B29AB /* NewPerfectViewController.swift */; };
+		DA389E8721368991004B29AB /* PerfectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389E8321368991004B29AB /* PerfectCollectionViewCell.swift */; };
+		DA389E8821368991004B29AB /* PerfectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA389E8421368991004B29AB /* PerfectLayout.m */; };
 		DA3C792C205F57D8009A9308 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3C792D205F57D8009A9308 /* Masonry.framework */; };
 		DA5866062005F3E000E6E500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866052005F3E000E6E500 /* AppDelegate.swift */; };
 		DA5866082005F3E000E6E500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866072005F3E000E6E500 /* ViewController.swift */; };
@@ -60,6 +71,19 @@
 		DA011517205F4E110004FFE9 /* MasoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasoryViewController.swift; sourceTree = "<group>"; };
 		DA26A047205F96CD003042FA /* MasonryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryListViewController.swift; sourceTree = "<group>"; };
 		DA26A04B205FA02D003042FA /* MasonryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryCell.swift; sourceTree = "<group>"; };
+		DA389E4521367128004B29AB /* DataArrayList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataArrayList.plist; sourceTree = "<group>"; };
+		DA389E4721367765004B29AB /* BaseCanbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCanbackViewController.swift; sourceTree = "<group>"; };
+		DA389E4C21367D42004B29AB /* PostscriptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostscriptViewController.swift; sourceTree = "<group>"; };
+		DA389E75213684BC004B29AB /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		DA389E78213686B1004B29AB /* SettleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettleViewController.swift; sourceTree = "<group>"; };
+		DA389E7A213686ED004B29AB /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		DA389E7B213686ED004B29AB /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		DA389E7D2136886A004B29AB /* TitleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleImage.swift; sourceTree = "<group>"; };
+		DA389E8021368991004B29AB /* PerfectLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectLayout.h; sourceTree = "<group>"; };
+		DA389E8121368991004B29AB /* PerfectCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerfectCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA389E8221368991004B29AB /* NewPerfectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPerfectViewController.swift; sourceTree = "<group>"; };
+		DA389E8321368991004B29AB /* PerfectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA389E8421368991004B29AB /* PerfectLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectLayout.m; sourceTree = "<group>"; };
 		DA3C792B205F557D009A9308 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3C792D205F57D8009A9308 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5866022005F3E000E6E500 /* PersonVerb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonVerb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,33 +180,58 @@
 			path = "表布局";
 			sourceTree = "<group>";
 		};
-		DA389E3F21364E71004B29AB /* 动画 */ = {
+		DA389E4121364EC1004B29AB /* 学习 */ = {
 			isa = PBXGroup;
 			children = (
+				DA389E7F2136896D004B29AB /* 滚动效果 */,
+				DA389E77213686A4004B29AB /* 结算页面效果设计 */,
+				DA389E74213684AE004B29AB /* 不规则图形 */,
 				DACE922C2060ADD200319133 /* 转场动画 */,
-			);
-			path = "动画";
-			sourceTree = "<group>";
-		};
-		DA389E4021364E99004B29AB /* UIcollectionview相关 */ = {
-			isa = PBXGroup;
-			children = (
 				DAF80D91200C913600458D87 /* collectionViewCell重排 */,
 				DAF80DD5200EEFAC00458D87 /* UICollectionView旋转布局 */,
-			);
-			path = "UIcollectionview相关";
-			sourceTree = "<group>";
-		};
-		DA389E4121364EC1004B29AB /* 自定义 */ = {
-			isa = PBXGroup;
-			children = (
 				DAEAD5532071CCFC0020E09D /* 融云即时通讯 */,
 				DA011513205F4C3A0004FFE9 /* Masory布局 */,
 				DA26A046205F96B3003042FA /* 表布局 */,
 				DAE58C2E20198C2500D7320A /* 密码键盘 */,
 				DAE58C39201AC8E900D7320A /* 自定义导航 */,
 			);
-			path = "自定义";
+			path = "学习";
+			sourceTree = "<group>";
+		};
+		DA389E4B21367D16004B29AB /* 封装 */ = {
+			isa = PBXGroup;
+			children = (
+				DA389E4C21367D42004B29AB /* PostscriptViewController.swift */,
+			);
+			path = "封装";
+			sourceTree = "<group>";
+		};
+		DA389E74213684AE004B29AB /* 不规则图形 */ = {
+			isa = PBXGroup;
+			children = (
+				DA389E75213684BC004B29AB /* RandomViewController.swift */,
+			);
+			path = "不规则图形";
+			sourceTree = "<group>";
+		};
+		DA389E77213686A4004B29AB /* 结算页面效果设计 */ = {
+			isa = PBXGroup;
+			children = (
+				DA389E78213686B1004B29AB /* SettleViewController.swift */,
+			);
+			path = "结算页面效果设计";
+			sourceTree = "<group>";
+		};
+		DA389E7F2136896D004B29AB /* 滚动效果 */ = {
+			isa = PBXGroup;
+			children = (
+				DA389E8221368991004B29AB /* NewPerfectViewController.swift */,
+				DA389E8321368991004B29AB /* PerfectCollectionViewCell.swift */,
+				DA389E8121368991004B29AB /* PerfectCollectionViewCell.xib */,
+				DA389E8021368991004B29AB /* PerfectLayout.h */,
+				DA389E8421368991004B29AB /* PerfectLayout.m */,
+			);
+			path = "滚动效果";
 			sourceTree = "<group>";
 		};
 		DA5865F92005F3E000E6E500 = {
@@ -210,9 +259,8 @@
 		DA5866042005F3E000E6E500 /* PersonVerb */ = {
 			isa = PBXGroup;
 			children = (
-				DA389E4121364EC1004B29AB /* 自定义 */,
-				DA389E4021364E99004B29AB /* UIcollectionview相关 */,
-				DA389E3F21364E71004B29AB /* 动画 */,
+				DA389E4B21367D16004B29AB /* 封装 */,
+				DA389E4121364EC1004B29AB /* 学习 */,
 				DA6F54BF204F795100345E1C /* 通用 */,
 				DA5866382005FA1200E6E500 /* 基类 */,
 				DA5866052005F3E000E6E500 /* AppDelegate.swift */,
@@ -250,6 +298,8 @@
 				DA58663B200C451B00E6E500 /* LoadScrollView.swift */,
 				DAF80D94200C919D00458D87 /* BaseController.swift */,
 				DAB0CB202079EFB800C14F11 /* RongYunList.plist */,
+				DA389E4521367128004B29AB /* DataArrayList.plist */,
+				DA389E4721367765004B29AB /* BaseCanbackViewController.swift */,
 			);
 			path = "基类";
 			sourceTree = "<group>";
@@ -257,6 +307,9 @@
 		DA6F54BF204F795100345E1C /* 通用 */ = {
 			isa = PBXGroup;
 			children = (
+				DA389E7D2136886A004B29AB /* TitleImage.swift */,
+				DA389E7B213686ED004B29AB /* UICountingLabel.h */,
+				DA389E7A213686ED004B29AB /* UICountingLabel.m */,
 				DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */,
 			);
 			path = "通用";
@@ -434,6 +487,8 @@
 				DA5866102005F3E000E6E500 /* LaunchScreen.storyboard in Resources */,
 				DA58660D2005F3E000E6E500 /* Assets.xcassets in Resources */,
 				DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */,
+				DA389E4621367128004B29AB /* DataArrayList.plist in Resources */,
+				DA389E8521368991004B29AB /* PerfectCollectionViewCell.xib in Resources */,
 				DA58660B2005F3E000E6E500 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,22 +584,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACE92322060BB8900319133 /* ViewVerbViewController.swift in Sources */,
+				DA389E76213684BC004B29AB /* RandomViewController.swift in Sources */,
 				DAF80DDB200F3EC400458D87 /* RotationCollectionViewCell.swift in Sources */,
 				DA58663A2005FA3400E6E500 /* BaseViewController.swift in Sources */,
+				DA389E4821367765004B29AB /* BaseCanbackViewController.swift in Sources */,
+				DA389E8821368991004B29AB /* PerfectLayout.m in Sources */,
 				DA26A04C205FA02D003042FA /* MasonryCell.swift in Sources */,
 				DAF80DD7200EEFEB00458D87 /* RotationViewController.swift in Sources */,
 				DAEAD557207228150020E09D /* NetworkTools.swift in Sources */,
 				DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */,
 				DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */,
 				DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */,
+				DA389E8621368991004B29AB /* NewPerfectViewController.swift in Sources */,
 				DAF80DD9200F227400458D87 /* RotationLayout.swift in Sources */,
+				DA389E79213686B1004B29AB /* SettleViewController.swift in Sources */,
 				DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */,
 				DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */,
 				DAEAD55520721A340020E09D /* LoginViewController.swift in Sources */,
 				DA5866082005F3E000E6E500 /* ViewController.swift in Sources */,
+				DA389E7C213686ED004B29AB /* UICountingLabel.m in Sources */,
 				DA5866062005F3E000E6E500 /* AppDelegate.swift in Sources */,
 				DA011518205F4E110004FFE9 /* MasoryViewController.swift in Sources */,
+				DA389E7E2136886A004B29AB /* TitleImage.swift in Sources */,
+				DA389E8721368991004B29AB /* PerfectCollectionViewCell.swift in Sources */,
 				DAF80D95200C919D00458D87 /* BaseController.swift in Sources */,
+				DA389E4D21367D42004B29AB /* PostscriptViewController.swift in Sources */,
 				DA26A048205F96CD003042FA /* MasonryListViewController.swift in Sources */,
 				DAF80D93200C918900458D87 /* CollectionViewController.swift in Sources */,
 			);

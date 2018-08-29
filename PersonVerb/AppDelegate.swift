@@ -11,13 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource {
     
-    
-    
-    
-
     var window: UIWindow?
-
-    
     lazy var ListArray : NSMutableArray = {
         let path = Bundle.main.path(forResource:"RongYunList", ofType: ".plist")
         
@@ -33,7 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource {
         
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().backgroundColor = UIColor.white
-        
         
         return true
     }

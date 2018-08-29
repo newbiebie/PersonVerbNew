@@ -15,19 +15,13 @@ class BaseViewController: BaseController , UITableViewDelegate, UITableViewDataS
     
     //数据源数组  在当前类初始化,否则闪退
     var dataArray : NSMutableArray?
-    
-    var classArray : NSMutableArray?
-    
     var tableView : UITableView?
-    
-    
     var fontSize : CGFloat = 15.0
     var textColor : UIColor = UIColor.orange
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataArray = NSMutableArray.init()
-        self.classArray = NSMutableArray.init()
         //初始化添加
         self.tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width:SCREENW , height: SCREENH - bottomHeight))
         self.tableView?.delegate = self
