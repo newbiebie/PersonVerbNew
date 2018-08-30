@@ -34,6 +34,9 @@
 		DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58663B200C451B00E6E500 /* LoadScrollView.swift */; };
 		DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */; };
 		DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAB0CB202079EFB800C14F11 /* RongYunList.plist */; };
+		DACDB20821377E13001AFDC6 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDB20721377E13001AFDC6 /* ListViewCell.swift */; };
+		DACDB20A21378715001AFDC6 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDB20921378715001AFDC6 /* ListModel.swift */; };
+		DACDB20C2137885A001AFDC6 /* ListPlistFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = DACDB20B2137885A001AFDC6 /* ListPlistFile.plist */; };
 		DACE92322060BB8900319133 /* ViewVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE92312060BB8900319133 /* ViewVerbViewController.swift */; };
 		DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE58C2C20198BBF00D7320A /* SecretViewController.swift */; };
 		DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE58C3A201AC92B00D7320A /* MYNavgViewController.swift */; };
@@ -104,6 +107,9 @@
 		DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonVerb-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatViewController.swift; sourceTree = "<group>"; };
 		DAB0CB202079EFB800C14F11 /* RongYunList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RongYunList.plist; sourceTree = "<group>"; };
+		DACDB20721377E13001AFDC6 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		DACDB20921378715001AFDC6 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		DACDB20B2137885A001AFDC6 /* ListPlistFile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ListPlistFile.plist; sourceTree = "<group>"; };
 		DACE92312060BB8900319133 /* ViewVerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVerbViewController.swift; sourceTree = "<group>"; };
 		DAE58C2C20198BBF00D7320A /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
 		DAE58C3A201AC92B00D7320A /* MYNavgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNavgViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +207,7 @@
 		DA389E4B21367D16004B29AB /* 封装 */ = {
 			isa = PBXGroup;
 			children = (
+				DACDB20621377D87001AFDC6 /* 多级列表 */,
 				DA389E4C21367D42004B29AB /* PostscriptViewController.swift */,
 			);
 			path = "封装";
@@ -313,6 +320,16 @@
 				DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */,
 			);
 			path = "通用";
+			sourceTree = "<group>";
+		};
+		DACDB20621377D87001AFDC6 /* 多级列表 */ = {
+			isa = PBXGroup;
+			children = (
+				DACDB20721377E13001AFDC6 /* ListViewCell.swift */,
+				DACDB20921378715001AFDC6 /* ListModel.swift */,
+				DACDB20B2137885A001AFDC6 /* ListPlistFile.plist */,
+			);
+			path = "多级列表";
 			sourceTree = "<group>";
 		};
 		DACE922C2060ADD200319133 /* 转场动画 */ = {
@@ -485,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5866102005F3E000E6E500 /* LaunchScreen.storyboard in Resources */,
+				DACDB20C2137885A001AFDC6 /* ListPlistFile.plist in Resources */,
 				DA58660D2005F3E000E6E500 /* Assets.xcassets in Resources */,
 				DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */,
 				DA389E4621367128004B29AB /* DataArrayList.plist in Resources */,
@@ -563,12 +581,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PersonVerb/Pods-PersonVerb-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetwork/AFNetwork.framework",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetwork.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +612,7 @@
 				DA26A04C205FA02D003042FA /* MasonryCell.swift in Sources */,
 				DAF80DD7200EEFEB00458D87 /* RotationViewController.swift in Sources */,
 				DAEAD557207228150020E09D /* NetworkTools.swift in Sources */,
+				DACDB20A21378715001AFDC6 /* ListModel.swift in Sources */,
 				DAF80D97200C935300458D87 /* AginCollectionViewCell.swift in Sources */,
 				DAE58C3B201AC92B00D7320A /* MYNavgViewController.swift in Sources */,
 				DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */,
@@ -600,6 +621,7 @@
 				DA389E79213686B1004B29AB /* SettleViewController.swift in Sources */,
 				DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */,
 				DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */,
+				DACDB20821377E13001AFDC6 /* ListViewCell.swift in Sources */,
 				DAEAD55520721A340020E09D /* LoginViewController.swift in Sources */,
 				DA5866082005F3E000E6E500 /* ViewController.swift in Sources */,
 				DA389E7C213686ED004B29AB /* UICountingLabel.m in Sources */,
