@@ -9,7 +9,6 @@
 import UIKit
 
 class PostscriptViewController: BaseViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.barTintColor = UIColor.gray
@@ -29,9 +28,9 @@ class PostscriptViewController: BaseViewController {
     func getPerSonDataArray(){
         let path = Bundle.main.path(forResource: "ListPlistFile", ofType: "plist")
         let array = NSArray.init(contentsOfFile: path!)
-        
-        if array != nil {
-            self.dataArray?.addObjects(from: ListModel.mj_objectArray(withKeyValuesArray: array!) as! [Any])
+        for item in array! as! [NSDictionary] {
+            let model = MoreListModel.init(dic: item as! [AnyHashable : Any])
+            self.dataArray!.add(model!)
         }
         
     }
@@ -39,7 +38,7 @@ class PostscriptViewController: BaseViewController {
     // MARK: UItableview代理方法重写
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListViewCell", for: indexPath) as! ListViewCell
-        let model = self.dataArray![indexPath.row] as! ListModel
+        let model = self.dataArray![indexPath.row] as! MoreListModel
         cell.model = model
         return cell
     }
@@ -54,41 +53,50 @@ class PostscriptViewController: BaseViewController {
             return
         }
         
-        let model = self.dataArray![indexPath.row] as! ListModel
-        if model.modelList.count <= 0 {
+        let model = self.dataArray![indexPath.row] as! MoreListModel
+        
+        if model.isRoot == false && model.className != "" {
+            self.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(self.creatViewControllerFromStr(classStr: model.className), animated: true)
+            self.hidesBottomBarWhenPushed = false
             return;
         }
         
-        //open状态  删除对一个的数据
-        if model.isOpen {
-            let deleteArray = NSMutableArray.init()
-            let indexArray = NSMutableArray.init()
-            var index : NSInteger = 0
-            for item in self.dataArray!{
-                let newModel = item as! ListModel
-                if newModel.listType == model.listType && newModel.rowNumber > model.rowNumber{
-                    deleteArray.add(newModel)
-                    indexArray.add(NSIndexPath.init(row: index, section: indexPath.section) as IndexPath)
-                }
-                
-                index = index + 1
-            }
-            self.dataArray!.removeObjects(in: deleteArray as! [Any])
-            self.tableView?.deleteRows(at: indexArray as! [IndexPath], with: .right)
-        }
+
+        
+        if model.belowCount == 0 {
             
-            //close状态  添加
-        else {
-            self.dataArray!.insert(ListModel.mj_objectArray(withKeyValuesArray: model.modelList) as! [Any], at: NSIndexSet.init(indexesIn:NSRange.init(location: indexPath.row + 1, length: model.modelList.count)) as IndexSet)
-            var index : NSInteger = indexPath.row
-            let indexarray = NSMutableArray.init()
-            for _ in model.modelList{
-                index = index + 1
-                indexarray.add(NSIndexPath.init(row: index, section: indexPath.section) as IndexPath)
+            if model.modelList == nil || model.modelList.count == 0 {
+                print("无可展示数据， 请去plist文件中编辑！")
+                return;
             }
-            self.tableView?.insertRows(at: indexarray as! [IndexPath], with: .fade)
+            
+            let array = model.open()
+            let indexSet = NSIndexSet.init(indexesIn: NSRange.init(location: indexPath.row + 1, length: array!.count))
+            let indexArray = NSMutableArray.init()
+            var index = indexPath.row
+            
+            for _  in array! {
+                index = index + 1
+                indexArray.add(NSIndexPath.init(row: index, section: indexPath.section))
+            }
+            self.dataArray!.insert(array!, at: indexSet as IndexSet)
+            tableView.insertRows(at: indexArray as! [IndexPath], with: .fade)
         }
-        model.isOpen = !model.isOpen
+        else {
+            let array = self.dataArray!.subarray(with: NSRange.init(location: indexPath.row + 1, length: Int(model.belowCount)))
+            model.close(withSubmodels: array)
+            self.dataArray!.removeObjects(in: array)
+            
+            let indexArray = NSMutableArray.init()
+            var index = indexPath.row
+            
+            for _  in array {
+                index = index + 1
+                indexArray.add(NSIndexPath.init(row: index, section: indexPath.section))
+            }
+            tableView.deleteRows(at: indexArray as! [IndexPath], with: .right)
+        }
         self.tableView?.reloadRows(at: NSMutableArray.init(object: indexPath) as! [IndexPath] , with: .fade)
     }
 }

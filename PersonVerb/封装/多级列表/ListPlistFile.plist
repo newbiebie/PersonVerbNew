@@ -11,12 +11,24 @@
 				<key>isRoot</key>
 				<true/>
 				<key>title</key>
-				<string>郑州市区</string>
-				<key>listType</key>
-				<integer>0</integer>
-                <key>modelList</key>
-                <array>
-                </array>
+				<string>选项卡相关</string>
+				<key>className</key>
+				<string>StepViewController</string>
+				<key>modelList</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>StepViewController</string>
+						<key>rowNumber</key>
+						<integer>2</integer>
+						<key>isRoot</key>
+						<false/>
+						<key>title</key>
+						<string>缩进式选项卡</string>
+						<key>modelList</key>
+						<array/>
+					</dict>
+				</array>
 			</dict>
 			<dict>
 				<key>rowNumber</key>
@@ -24,12 +36,24 @@
 				<key>isRoot</key>
 				<true/>
 				<key>title</key>
-				<string>开封</string>
-				<key>listType</key>
-				<integer>0</integer>
-                <key>modelList</key>
-                <array>
-                </array>
+				<string>界面相关动画效果</string>
+				<key>className</key>
+				<string>StepViewController</string>
+				<key>modelList</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>CollectionViewVCViewController</string>
+						<key>rowNumber</key>
+						<integer>2</integer>
+						<key>isRoot</key>
+						<false/>
+						<key>title</key>
+						<string>CollectionViewVC效果</string>
+						<key>modelList</key>
+						<array/>
+					</dict>
+				</array>
 			</dict>
 			<dict>
 				<key>rowNumber</key>
@@ -37,12 +61,24 @@
 				<key>isRoot</key>
 				<true/>
 				<key>title</key>
-				<string>新密</string>
-				<key>listType</key>
-				<integer>0</integer>
-                <key>modelList</key>
-                <array>
-                </array>
+				<string>进度条相关</string>
+				<key>className</key>
+				<string>StepViewController</string>
+				<key>modelList</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>ProgressViewController</string>
+						<key>rowNumber</key>
+						<integer>2</integer>
+						<key>isRoot</key>
+						<false/>
+						<key>title</key>
+						<string>相关完成度</string>
+						<key>modelList</key>
+						<array/>
+					</dict>
+				</array>
 			</dict>
 		</array>
 		<key>rowNumber</key>
@@ -50,9 +86,9 @@
 		<key>isRoot</key>
 		<true/>
 		<key>title</key>
-		<string>郑州</string>
-		<key>listType</key>
-		<integer>0</integer>
+		<string>界面UI相关</string>
+		<key>className</key>
+		<string>StepViewController</string>
 	</dict>
 	<dict>
 		<key>rowNumber</key>
@@ -61,8 +97,8 @@
 		<true/>
 		<key>title</key>
 		<string>南阳</string>
-		<key>listType</key>
-		<integer>1</integer>
+		<key>className</key>
+		<string>StepViewController</string>
 		<key>modelList</key>
 		<array>
 			<dict>
@@ -70,10 +106,10 @@
 				<integer>1</integer>
 				<key>isRoot</key>
 				<true/>
-				<key>listType</key>
-				<integer>1</integer>
 				<key>title</key>
 				<string>南阳市区</string>
+				<key>className</key>
+				<string>StepViewController</string>
 				<key>modelList</key>
 				<array>
 					<dict>
@@ -83,8 +119,8 @@
 						<true/>
 						<key>title</key>
 						<string>卧龙区</string>
-						<key>listType</key>
-						<integer>1</integer>
+						<key>className</key>
+						<string>StepViewController</string>
 						<key>modelList</key>
 						<array>
 							<dict>
@@ -94,6 +130,8 @@
 								<true/>
 								<key>title</key>
 								<string>蒲山镇</string>
+								<key>className</key>
+								<string>StepViewController</string>
 								<key>listType</key>
 								<integer>1</integer>
 								<key>modelList</key>
@@ -105,11 +143,12 @@
 										<false/>
 										<key>title</key>
 										<string>张家村</string>
+										<key>className</key>
+										<string>StepViewController</string>
 										<key>listType</key>
 										<integer>1</integer>
-                                        <key>modelList</key>
-                                        <array>
-                                        </array>
+										<key>modelList</key>
+										<array/>
 									</dict>
 									<dict>
 										<key>rowNumber</key>
@@ -118,11 +157,12 @@
 										<false/>
 										<key>title</key>
 										<string>达士营</string>
+										<key>className</key>
+										<string>StepViewController</string>
 										<key>listType</key>
 										<integer>1</integer>
-                                        <key>modelList</key>
-                                        <array>
-                                        </array>
+										<key>modelList</key>
+										<array/>
 									</dict>
 									<dict>
 										<key>rowNumber</key>
@@ -131,11 +171,12 @@
 										<false/>
 										<key>title</key>
 										<string>赵河镇</string>
+										<key>className</key>
+										<string>StepViewController</string>
 										<key>listType</key>
 										<integer>1</integer>
-                                        <key>modelList</key>
-                                        <array>
-                                        </array>
+										<key>modelList</key>
+										<array/>
 									</dict>
 								</array>
 							</dict>
@@ -146,11 +187,12 @@
 								<true/>
 								<key>title</key>
 								<string>七里河乡</string>
+								<key>className</key>
+								<string>StepViewController</string>
 								<key>listType</key>
 								<integer>1</integer>
-                                <key>modelList</key>
-                                <array>
-                                </array>
+								<key>modelList</key>
+								<array/>
 							</dict>
 							<dict>
 								<key>rowNumber</key>
@@ -159,11 +201,12 @@
 								<true/>
 								<key>title</key>
 								<string>白塔镇</string>
+								<key>className</key>
+								<string>StepViewController</string>
 								<key>listType</key>
 								<integer>1</integer>
-                                <key>modelList</key>
-                                <array>
-                                </array>
+								<key>modelList</key>
+								<array/>
 							</dict>
 						</array>
 					</dict>
@@ -174,11 +217,10 @@
 						<true/>
 						<key>title</key>
 						<string>高新区</string>
-						<key>listType</key>
-						<integer>1</integer>
-                        <key>modelList</key>
-                        <array>
-                        </array>
+						<key>className</key>
+						<string>StepViewController</string>
+						<key>modelList</key>
+						<array/>
 					</dict>
 					<dict>
 						<key>rowNumber</key>
@@ -187,11 +229,10 @@
 						<true/>
 						<key>title</key>
 						<string>宛城区</string>
-						<key>listType</key>
-						<integer>1</integer>
-                        <key>modelList</key>
-                        <array>
-                        </array>
+						<key>className</key>
+						<string>StepViewController</string>
+						<key>modelList</key>
+						<array/>
 					</dict>
 				</array>
 			</dict>

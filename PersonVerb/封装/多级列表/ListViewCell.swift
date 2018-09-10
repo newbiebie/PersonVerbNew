@@ -17,37 +17,26 @@ class ListViewCell: UITableViewCell {
     var titleLabel : UILabel?
     var lastLabel : UILabel?
     
-    private var simpleModel : ListModel?
-    var model : ListModel {
+    private var simpleModel : MoreListModel?
+    var model : MoreListModel {
         set {
             //赋值
             simpleModel = newValue
             self.titleLabel?.text = simpleModel?.title
             //打开状态
-            if simpleModel!.isRoot && simpleModel!.isOpen {
+            if simpleModel!.isRoot && simpleModel?.belowCount != 0 {
                 self.imageV?.image = UIImage.init(named: "减号")
             }
                 
             //非打开状态
-            else if simpleModel!.isRoot && (simpleModel!.isOpen == false){
+            else if simpleModel!.isRoot && simpleModel?.belowCount == 0{
                 self.imageV?.image = UIImage.init(named: "加号")
             }
             
-            var lastStr = ""
-            if simpleModel!.isRoot == false{
-                lastStr = " <最底级>"
-            }
-            else if simpleModel!.modelList.count > 0 {
-                lastStr = " <可展开> "
-            }
-            else {
-                lastStr = " <无数据> "
-            }
-            
-            self.lastLabel?.text = lastStr
+            self.lastLabel?.isHidden = true
             let width : CGFloat = 20
             self.imageV!.mas_remakeConstraints({ (maker) in
-                maker?.left.equalTo()(self.contentView)?.offset()((width + labelMargin) * simpleModel!.rowNumber + margin)
+                maker?.left.equalTo()(self.contentView)?.offset()((width + labelMargin) * CGFloat(simpleModel!.rowNumber.floatValue) + margin)
                 maker?.centerY.equalTo()(self.contentView)
                 maker?.size.sizeOffset()(CGSize.init(width: width, height: width))
             })
