@@ -9,7 +9,7 @@
 import UIKit
 //基类文件  自定义一个基类tableViewController
 
-let bottomHeight : CGFloat = SCREENH == 812 ? 37 : 0
+let bottomHeight : CGFloat = UIApplication.shared.statusBarFrame.height == 44 ? 34 : 0
 
 class BaseViewController: BaseController , UITableViewDelegate, UITableViewDataSource {
     

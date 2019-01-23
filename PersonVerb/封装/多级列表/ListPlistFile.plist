@@ -53,6 +53,18 @@
 						<key>modelList</key>
 						<array/>
 					</dict>
+                    <dict>
+                        <key>className</key>
+                        <string>TouchViewController</string>
+                        <key>rowNumber</key>
+                        <integer>2</integer>
+                        <key>isRoot</key>
+                        <false/>
+                        <key>title</key>
+                        <string>3D Touch 效果</string>
+                        <key>modelList</key>
+                        <array/>
+                    </dict>
 				</array>
 			</dict>
 			<dict>

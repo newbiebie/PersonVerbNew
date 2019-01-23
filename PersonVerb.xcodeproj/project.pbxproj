@@ -32,6 +32,9 @@
 		DA5866262005F3E100E6E500 /* PersonVerbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866252005F3E100E6E500 /* PersonVerbUITests.swift */; };
 		DA58663A2005FA3400E6E500 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5866392005FA3400E6E500 /* BaseViewController.swift */; };
 		DA58663C200C451B00E6E500 /* LoadScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58663B200C451B00E6E500 /* LoadScrollView.swift */; };
+		DAA966842176C546009D09B1 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA966832176C546009D09B1 /* TouchViewController.swift */; };
+		DAA966862176CA89009D09B1 /* TouchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA966852176CA89009D09B1 /* TouchCell.swift */; };
+		DAA966882176D0B8009D09B1 /* PushTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA966872176D0B8009D09B1 /* PushTouchViewController.swift */; };
 		DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */; };
 		DAB0CB212079EFB800C14F11 /* RongYunList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAB0CB202079EFB800C14F11 /* RongYunList.plist */; };
 		DACDA1AA2145FC8F007316A9 /* VCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDA1A82145FC8F007316A9 /* VCViewCell.swift */; };
@@ -114,6 +117,9 @@
 		DA5866392005FA3400E6E500 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DA58663B200C451B00E6E500 /* LoadScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadScrollView.swift; sourceTree = "<group>"; };
 		DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonVerb-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAA966832176C546009D09B1 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		DAA966852176CA89009D09B1 /* TouchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchCell.swift; sourceTree = "<group>"; };
+		DAA966872176D0B8009D09B1 /* PushTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTouchViewController.swift; sourceTree = "<group>"; };
 		DAB0CB182079BABF00C14F11 /* MyChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatViewController.swift; sourceTree = "<group>"; };
 		DAB0CB202079EFB800C14F11 /* RongYunList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RongYunList.plist; sourceTree = "<group>"; };
 		DACDA1A82145FC8F007316A9 /* VCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCViewCell.swift; sourceTree = "<group>"; };
@@ -227,6 +233,7 @@
 		DA389E4B21367D16004B29AB /* 封装 */ = {
 			isa = PBXGroup;
 			children = (
+				DAA966822176C52C009D09B1 /* 3D Touch */,
 				DACDA1A72145FC75007316A9 /* CollectionViewVC视图 */,
 				DACDB2162138EBE0001AFDC6 /* 进度视图 */,
 				DACDB20D2138D5E0001AFDC6 /* 缩进式选项卡 */,
@@ -343,6 +350,16 @@
 				DA6F54D220522DB800345E1C /* PersonVerb-Bridging-Header.h */,
 			);
 			path = "通用";
+			sourceTree = "<group>";
+		};
+		DAA966822176C52C009D09B1 /* 3D Touch */ = {
+			isa = PBXGroup;
+			children = (
+				DAA966832176C546009D09B1 /* TouchViewController.swift */,
+				DAA966852176CA89009D09B1 /* TouchCell.swift */,
+				DAA966872176D0B8009D09B1 /* PushTouchViewController.swift */,
+			);
+			path = "3D Touch";
 			sourceTree = "<group>";
 		};
 		DACDA1A72145FC75007316A9 /* CollectionViewVC视图 */ = {
@@ -679,6 +696,7 @@
 				DA389E8621368991004B29AB /* NewPerfectViewController.swift in Sources */,
 				DAF80DD9200F227400458D87 /* RotationLayout.swift in Sources */,
 				DA389E79213686B1004B29AB /* SettleViewController.swift in Sources */,
+				DAA966842176C546009D09B1 /* TouchViewController.swift in Sources */,
 				DACDA1AF21460D11007316A9 /* SecondViewController.swift in Sources */,
 				DAB0CB192079BABF00C14F11 /* MyChatViewController.swift in Sources */,
 				DAE58C2D20198BBF00D7320A /* SecretViewController.swift in Sources */,
@@ -687,7 +705,9 @@
 				DA5866082005F3E000E6E500 /* ViewController.swift in Sources */,
 				DA389E7C213686ED004B29AB /* UICountingLabel.m in Sources */,
 				DA5866062005F3E000E6E500 /* AppDelegate.swift in Sources */,
+				DAA966862176CA89009D09B1 /* TouchCell.swift in Sources */,
 				DA011518205F4E110004FFE9 /* MasoryViewController.swift in Sources */,
+				DAA966882176D0B8009D09B1 /* PushTouchViewController.swift in Sources */,
 				DA389E7E2136886A004B29AB /* TitleImage.swift in Sources */,
 				DA389E8721368991004B29AB /* PerfectCollectionViewCell.swift in Sources */,
 				DACDB220213CBA16001AFDC6 /* MoreListModel.m in Sources */,
@@ -869,7 +889,7 @@
 				DEVELOPMENT_TEAM = K28A3BX2XJ;
 				GCC_PREFIX_HEADER = "/Users/jiahui/Desktop/PersonVerbNew/PersonVerb/通用/PersonVerb-Bridging-Header.h";
 				INFOPLIST_FILE = PersonVerb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PersonVerb;
@@ -877,7 +897,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonVerb/通用/PersonVerb-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -892,14 +912,14 @@
 				DEVELOPMENT_TEAM = K28A3BX2XJ;
 				GCC_PREFIX_HEADER = "/Users/jiahui/Desktop/PersonVerbNew/PersonVerb/通用/PersonVerb-Bridging-Header.h";
 				INFOPLIST_FILE = PersonVerb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PersonVerb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonVerb/通用/PersonVerb-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

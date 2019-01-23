@@ -21,18 +21,15 @@ class CollectionViewVCViewController: BaseCanbackViewController, UICollectionVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.title = "CollectionViewVC视图"
-        
         self.setUI()
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
     
+    //不能放在didload中
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.delegate = self

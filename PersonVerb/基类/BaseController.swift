@@ -10,7 +10,7 @@ import UIKit
 
 let SCREENW = UIScreen.main.bounds.size.width
 let SCREENH = UIScreen.main.bounds.size.height
-let navHieght : CGFloat = SCREENH == 812 ? 88 : 64
+let navHieght : CGFloat = UIApplication.shared.statusBarFrame.height == 44 ? 88 : 64
 
 class BaseController: UIViewController {
 
